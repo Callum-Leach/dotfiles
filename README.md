@@ -3,10 +3,10 @@ A collection of my linux dotfiles
 
 ## Installing on a New System
 
-Commit the alias to (`.zshrc`)<br>
+Commit the alias to (`.zshrc`):<br>
 (`alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'`)
 
-Make sure source repo ignores file to clone to.<br>
+Make sure source repo ignores file to clone to:<br>
 (`echo "dotfiles" >> .gitignore`)
 
 Clone dotfiles into a bare repo:<br>
