@@ -2,6 +2,14 @@
 # wm independent hotkeys
 #
 
+# Latex Workflow
+
+# Select a course to open in vim
+super + s
+    python3 -u /home/callumleach/Documents/University/scipts/rofi-courses.py
+
+# Select
+
 # Media Key : Lower audio volume
 XF86AudioLowerVolume
     pactl set-sink-volume 0 -10%
