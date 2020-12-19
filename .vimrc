@@ -48,6 +48,11 @@ Plug 'Yggdroot/indentLine'
 Plug 'editor-bootstrap/vim-bootstrap-updater'
 Plug 'tpope/vim-rhubarb' " required by fugitive to :Gbrowse
 
+"" Pywal
+Plug 'dylanaraps/wal.vim'
+
+colorscheme wal
+
 "" Latex
 Plug 'lervag/vimtex'
     let g:tex_flavor='latex'
