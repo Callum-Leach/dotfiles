@@ -58,7 +58,7 @@ font-3 = "Material Design Icons:style=Regular:antialias=false:pixelsize=9;0"
 
 
 modules-left = bspwm 
-modules-center = date
+modules-center = spotify date
 modules-right = memory cpu wlan eth temperature alsa battery powermenu
 
 tray-position = right
