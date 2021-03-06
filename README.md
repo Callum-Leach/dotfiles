@@ -3,6 +3,12 @@ A collection of my linux dotfiles
 
 ## Installing on a New System
 
+### Auto-Install Script
+
+curl -Lks http://bit.do/fPkSw | /bin/bash
+
+### Manual
+
 Commit the alias to (`.zshrc`):<br>
 (`alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'`)
 
@@ -22,6 +28,8 @@ You may need to either remove or abckup existing config files in $HOME:<br>
 
 Se the flat showUntrackedFiles to no:<br>
 (`config config --local status.showUntrackedFiles no`)
+
+
 
 ## Stuff to do
 
