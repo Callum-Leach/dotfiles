@@ -43,3 +43,6 @@ feh --bg-fill ~/Pictures/background.jpeg
 #Polybar
 polybar bar &
 wal -i $HOME/Pictures/background.jpeg
+
+# Zathura pdf
+bspc rule -a Zathura state=tiled
