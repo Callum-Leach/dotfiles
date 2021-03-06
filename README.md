@@ -5,7 +5,7 @@ A collection of my linux dotfiles
 
 ### Auto-Install Script
 
-curl -Lks http://bit.do/fPkSJ | /bin/bash
+curl -Lks http://bit.do/fPkTe | /bin/bash
 
 ### Manual
 
