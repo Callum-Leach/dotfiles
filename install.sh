@@ -1,4 +1,4 @@
-git clone --bare https://bitbucket.org/durdn/cfg.git $HOME/dotfiles
+git clone --bare https://github.com/Callum-Leach/dotfiles.git
 function config {
    /usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME $@
 }
