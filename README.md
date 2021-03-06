@@ -31,3 +31,7 @@ Se the flat showUntrackedFiles to no:<br>
 * zsh
 * oh-my-zsh
 * spaceship theme
+
+## Dotfile Management
+These dotfiles are based off the article:
+https://www.atlassian.com/git/tutorials/dotfiles
