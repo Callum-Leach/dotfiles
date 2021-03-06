@@ -22,3 +22,12 @@ You may need to either remove or abckup existing config files in $HOME:<br>
 
 Se the flat showUntrackedFiles to no:<br>
 (`config config --local status.showUntrackedFiles no`)
+
+## Stuff to do
+
+### Programs to install
+
+*git*
+*zsh*
+*oh-my-zsh*
+*spaceship theme*
