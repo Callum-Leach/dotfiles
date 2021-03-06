@@ -27,7 +27,7 @@ Se the flat showUntrackedFiles to no:<br>
 
 ### Programs to install
 
-*git*
-*zsh*
-*oh-my-zsh*
-*spaceship theme*
+* git
+* zsh
+* oh-my-zsh
+* spaceship theme
