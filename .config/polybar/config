@@ -59,7 +59,7 @@ font-3 = "Material Design Icons:style=Regular:antialias=false:pixelsize=9;0"
 
 modules-left = bspwm 
 modules-center = spotify date
-modules-right = memory cpu wlan eth temperature alsa battery-one battery-two powermenu
+modules-right = memory cpu temperature wlan eth vpn-wireguard-wg alsa battery-one battery-two powermenu
 
 tray-position = right
 tray-padding = 1
@@ -416,3 +416,9 @@ margin-top = 5
 margin-bottom = 5
 
 ; vim:ft=dosini
+
+[module/vpn-wireguard-wg]
+type = custom/script
+exec = ~/.config/scripts/vpn-wireguard-wg.sh
+interval = 5
+click-left = ~/.config/scripts/vpn-wireguard-wg.sh --toggle &
