@@ -39,6 +39,7 @@ Se the flat showUntrackedFiles to no:<br>
 * zsh
 * oh-my-zsh
 * spaceship theme
+* [polybar wireguard](https://github.com/polybar/polybar-scripts/tree/master/polybar-scripts/vpn-wireguard-wg)
 
 ## Dotfile Management
 These dotfiles are based off the article:
