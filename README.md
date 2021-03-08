@@ -42,6 +42,9 @@ Se the flat showUntrackedFiles to no:<br>
 * [polybar wireguard](https://github.com/polybar/polybar-scripts/tree/master/polybar-scripts/vpn-wireguard-wg)
 * [latex-vim](https://castel.dev/post/lecture-notes-1/)
 
+To get wireguard polybar working, I had to change permissions of wireguard folder using:
+`sudo chown callumleach /etc/wireguard`. I want to change this, bad practice.
+
 ## Dotfile Management
 These dotfiles are based off the article:
 https://www.atlassian.com/git/tutorials/dotfiles

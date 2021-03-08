@@ -1,7 +1,7 @@
 #!/bin/sh
 
 connection_status() {
-    if [ -f "$config" ]; then
+    if [ -f $config ]; then
         connection=$(sudo wg show "$config_name" 2>/dev/null | head -n 1 | awk '{print $NF }')
 
         if [ "$connection" = "$config_name" ]; then
@@ -9,8 +9,8 @@ connection_status() {
         else
             echo "2"
         fi
-    #else
-    #    echo "3"
+    else
+        echo "3"
     fi
 }
 
