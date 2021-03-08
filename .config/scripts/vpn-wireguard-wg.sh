@@ -9,12 +9,12 @@ connection_status() {
         else
             echo "2"
         fi
-    else
-        echo "3"
+    #else
+    #    echo "3"
     fi
 }
 
-config="$HOME/wg/wireguard.conf"
+config="/etc/wireguard/wg0.conf"
 config_name=$(basename "${config%.*}")
 
 case "$1" in
