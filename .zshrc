@@ -106,4 +106,4 @@ export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
 source ~/.local/bin/virtualenvwrapper.sh
 
-
+export PATH="/home/callumleach/.local/bin:$PATH"
