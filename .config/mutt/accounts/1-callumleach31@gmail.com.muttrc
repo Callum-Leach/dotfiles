@@ -1,0 +1,62 @@
+# vim: filetype=neomuttrc
+# muttrc file for account callumleach31@gmail.com
+set realname = "callumleach31"
+set from = "callumleach31@gmail.com"
+set sendmail = "msmtp -a callumleach31@gmail.com"
+alias me callumleach31 <callumleach31@gmail.com>
+set folder = "imaps://callumleach31@gmail.com@imap.gmail.com:993"
+set header_cache = /home/callumleach/.cache/mutt-wizard/callumleach31@gmail.com/headers
+set message_cachedir = /home/callumleach/.cache/mutt-wizard/callumleach31@gmail.com/bodies
+set mbox_type = Maildir
+set imap_user = "callumleach31@gmail.com"
+set imap_pass = "`pass callumleach31@gmail.com`"
+set ssl_starttls = yes
+set ssl_force_tls = yes
+
+bind index,pager gg noop
+bind index,pager g noop
+bind index,pager M noop
+bind index,pager C noop
+bind index gg first-entry
+unmailboxes *
+unalternates *
+unset signature
+unmacro index o
+
+
+mailboxes "=INBOX/2016" "=INBOX/2017" "=INBOX/2018" "=INBOX/2019" "=INBOX/2020" "=INBOX" "=[Gmail]/All Mail" "=[Gmail]/Bin" "=[Gmail]/Drafts" "=[Gmail]/Important" "=[Gmail]/Sent Mail" "=[Gmail]/Spam" "=[Gmail]/Starred"
+macro index,pager gi6 "<change-folder>=INBOX/2016<enter>" "go to inbox"
+macro index,pager Mi6 ";<save-message>=INBOX/2016<enter>" "move mail to inbox"
+macro index,pager Ci6 ";<copy-message>=INBOX/2016<enter>" "copy mail to inbox"
+set spoolfile = "+INBOX/2016"
+macro index,pager gi7 "<change-folder>=INBOX/2017<enter>" "go to inbox"
+macro index,pager Mi7 ";<save-message>=INBOX/2017<enter>" "move mail to inbox"
+macro index,pager Ci7 ";<copy-message>=INBOX/2017<enter>" "copy mail to inbox"
+set spoolfile = "+INBOX/2017"
+macro index,pager gi8 "<change-folder>=INBOX/2018<enter>" "go to inbox"
+macro index,pager Mi8 ";<save-message>=INBOX/2018<enter>" "move mail to inbox"
+macro index,pager Ci8 ";<copy-message>=INBOX/2018<enter>" "copy mail to inbox"
+set spoolfile = "+INBOX/2018"
+macro index,pager gi9 "<change-folder>=INBOX/2019<enter>" "go to inbox"
+macro index,pager Mi9 ";<save-message>=INBOX/2019<enter>" "move mail to inbox"
+macro index,pager Ci9 ";<copy-message>=INBOX/2019<enter>" "copy mail to inbox"
+set spoolfile = "+INBOX/2019"
+macro index,pager gi0 "<change-folder>=INBOX/2020<enter>" "go to inbox"
+macro index,pager Mi0 ";<save-message>=INBOX/2020<enter>" "move mail to inbox"
+macro index,pager Ci0 ";<copy-message>=INBOX/2020<enter>" "copy mail to inbox"
+set spoolfile = "+INBOX/2020"
+macro index,pager gic "<change-folder>=INBOX<enter>" "go to inbox"
+macro index,pager Mic ";<save-message>=INBOX<enter>" "move mail to inbox"
+macro index,pager Cic ";<copy-message>=INBOX<enter>" "copy mail to inbox"
+set spoolfile = "+INBOX"
+set postponed = "+[Gmail]/Drafts"
+macro index,pager gd "<change-folder>=[Gmail]/Drafts<enter>" "go to drafts"
+macro index,pager Md ";<save-message>=[Gmail]/Drafts<enter>" "move mail to drafts"
+macro index,pager Cd ";<copy-message>=[Gmail]/Drafts<enter>" "copy mail to drafts"
+set record = "+[Gmail]/Sent"
+macro index,pager gs "<change-folder>=[Gmail]/Sent<enter>" "go to sent"
+macro index,pager Ms ";<save-message>=[Gmail]/Sent<enter>" "move mail to sent"
+macro index,pager Cs ";<copy-message>=[Gmail]/Sent<enter>" "copy mail to sent"
+macro index,pager gS "<change-folder>=[Gmail]/Spam<enter>" "go to spam"
+macro index,pager MS ";<save-message>=[Gmail]/Spam<enter>" "move mail to spam"
+macro index,pager CS ";<copy-message>=[Gmail]/Spam<enter>" "copy mail to spam"
