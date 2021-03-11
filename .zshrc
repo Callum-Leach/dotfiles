@@ -107,3 +107,6 @@ export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
 source ~/.local/bin/virtualenvwrapper.sh
 
 export PATH="/home/callumleach/.local/bin:$PATH"
+
+export SPICETIFY_INSTALL="/home/callumleach/spicetify-cli"
+export PATH="$SPICETIFY_INSTALL:$PATH"
