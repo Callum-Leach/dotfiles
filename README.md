@@ -42,6 +42,9 @@ Se the flat showUntrackedFiles to no:<br>
 * [polybar wireguard](https://github.com/polybar/polybar-scripts/tree/master/polybar-scripts/vpn-wireguard-wg)
 * [latex-vim](https://castel.dev/post/lecture-notes-1/)
 * [mutt-wizard](https://github.com/LukeSmithxyz/mutt-wizard)
+* [bspwm]
+* [sxhxd]
+* [pywal]
 #### Polybar Scripts
 * [polybar-gmail](https://github.com/crabvk/polybar-gmail)
 
